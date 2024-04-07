@@ -1,3 +1,7 @@
 joblib
 scikit-learn
 streamlit
+plotly
+regex
+wordcloud
+matplotlib
