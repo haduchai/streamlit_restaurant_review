@@ -10,7 +10,7 @@ model = joblib.load('models/svm_project1.joblib')
 st.title('Review Restaurant')
 
 # Hiển thị trình nhập dữ liệu để người dùng nhập số
-number = st.number_input(label='Nhập ID nhà hàng', type='int')
+number = st.number_input(label='Nhập ID nhà hàng')
 
 # nhập dữ liệu comment
 comment = st.text_area(label='Nhập comment của bạn')
